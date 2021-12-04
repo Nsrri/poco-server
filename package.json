@@ -1,0 +1,28 @@
+{
+  "name": "server-exercise1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-with-port":  "PORT=1234 node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nsrri/poco-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nsrri/poco-server/issues"
+  },
+  "homepage": "https://github.com/Nsrri/poco-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "16.13.0"
+}
+}
